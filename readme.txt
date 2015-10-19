@@ -36,6 +36,12 @@ Have fun!
 
 
 History:
+v3.10
+  - added new TP2 keywords introduced in WeiDU 239
+  - added fixed versions of misspelled EigthNearestEnemyOfType and 
+    EigthNearestMyGroupOfType object specifiers
+  - fixed misspelled FIND_FREE_PRVZ_INDEX function name
+
 v3.9
   - added several new and undocumented TP2 keywords and function names
   - added missing sound slot identifiers
