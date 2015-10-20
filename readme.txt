@@ -41,18 +41,16 @@ v3.10
   - added fixed versions of misspelled EigthNearestEnemyOfType and 
     EigthNearestMyGroupOfType object specifiers
   - fixed misspelled FIND_FREE_PRVZ_INDEX function name
-
+  - moved CREATE from patch to action category
 v3.9
   - added several new and undocumented TP2 keywords and function names
   - added missing sound slot identifiers
-
 v3.8
   - removed variable delimiters (%)
   - added new TP2 keywords introduced in WeiDU 237
   - added a couple of missing keywords to TP2
   - added new script actions, triggers and objects to WeiDU_BAF, WeiDU_D and 
     WeiDU_TP2 introduced in IWD:EE
-
 v3.7
   - added tokens, triggers, actions and keywords introduced in BG:EE and BG2:EE
 v3.6
