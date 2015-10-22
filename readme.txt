@@ -38,6 +38,7 @@ Have fun!
 History:
 v3.10
   - added new TP2 keywords introduced in WeiDU 239
+  - added a missing RACE.IDS identifier
   - added fixed versions of misspelled EigthNearestEnemyOfType and 
     EigthNearestMyGroupOfType object specifiers
   - fixed misspelled FIND_FREE_PRVZ_INDEX function name
