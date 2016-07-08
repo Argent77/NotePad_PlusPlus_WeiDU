@@ -39,6 +39,8 @@ Have fun!
 
 
 History:
+v3.11
+  - added several new object specifiers
 v3.10
   - added new TP2 keywords introduced in WeiDU 239
   - added a missing RACE.IDS identifier
