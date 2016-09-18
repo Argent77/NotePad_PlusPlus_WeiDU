@@ -40,7 +40,8 @@ Have fun!
 
 History:
 v3.11
-  - added several new object specifiers
+  - added new object specifiers
+  - added new script actions, triggers and keywords introduced in game engine v2.0
   - added new keywords introduced in WeiDU 240
 v3.10
   - added new TP2 keywords introduced in WeiDU 239
