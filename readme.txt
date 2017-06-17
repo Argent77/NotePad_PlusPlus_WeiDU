@@ -39,6 +39,9 @@ Have fun!
 
 
 History:
+v3.12
+  - added double quote string delimiter support to WeiDU_TRA
+  - added colored text delimiter to WeiDU_TRA
 v3.11
   - added new object specifiers
   - added new script actions, triggers and keywords introduced in game engine v2.0
