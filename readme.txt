@@ -42,7 +42,7 @@ History:
 v3.12
   - added double quote string delimiter support to WeiDU_TRA
   - added colored text delimiter to WeiDU_TRA
-  - added new keywords introduced in WeiDU 240
+  - added new keywords introduced in WeiDU 241
   - added convenience trigger command TriggerOverride
 v3.11
   - added new object specifiers
