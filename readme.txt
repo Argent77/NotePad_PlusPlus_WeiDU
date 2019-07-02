@@ -21,24 +21,15 @@ Installing the syntax highlighters:
 5. Restart Notepad++ to make the changes visible. You should now see the new 
    entries in the Language menu.
 
-Note:
-As more and more keywords have been added to the highlighters, Notepad++ 
-may become slower to apply the color schemes. This is especially apparent when 
-you switch tabs or change view modes within Notepad++.
-That's why I'm offering WeiDU Syntax Highlighters 'Light' for Notepad++ as an 
-alternative. It reduces the number of keywords to a bare minimum. You can find 
-it somewhere in the download section of the Spellhold Studios website.
-
-If you want to install both the full and the light package of the WeiDU Syntax 
-Highlighters, the order of installation determines which version is applied 
-automatically when opening a script file in Notepad++. The editor applies the 
-first highlighting scheme found in the list of user-defined languages matching 
-the file type.
-
 Have fun!
 
 
 History:
+v3.15
+  - added new TP2 keywords introduced by WeiDU 247
+  - added several missing TP2 keywords
+  - added more symbols and keywords to BAF, D and TP2
+  - internal cleanups
 v3.14
   - added new TP2 keywords introduced by WeiDU 245
   - added several missing TP2 keywords
