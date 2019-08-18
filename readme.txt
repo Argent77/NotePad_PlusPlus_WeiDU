@@ -11,14 +11,27 @@ Highlighters included:
 - WeiDU_TRA.xml: WeiDU translation files (*.tra)
 The syntax highlighter files work in Notepad++ 6.3 and higher.
 
-Installing the syntax highlighters:
+
+You can choose between two methods how to install the syntax highlighters:
+
+Method 1: in Notepad++
 1. Select Language->Define your language... in your Notepad++ menu.
-2. (optional) If you already have an older version installed, you should 
-   remove it by selecting the appropriate language from the drop-down menu 
+2. (optional) If you already have an older version installed, you should
+   remove it by selecting the appropriate language from the drop-down menu
    and click the "Remove" button to avoid duplicate entries.
 3. Click the "Import..." button and select the respective XML file.
 4. Repeat step 2 and 3 for all syntax highlighters you need.
-5. Restart Notepad++ to make the changes visible. You should now see the new 
+5. Restart Notepad++ to make the changes visible. You should now see the new
+   entries in the Language menu.
+
+Method 2: in your file manager
+1. Open the file manager and enter the path "%AppData%\Notepad++\userDefineLangs"
+   (without the quotes) into the address bar. The path should resolve to
+   "C:\Users\<your username>\AppData\Roaming\Notepad++\userDefineLangs"
+   (on Windows Vista or later).
+2. If the folder "userDefineLangs" doesn't exist yet, create it.
+3. Copy all desired highlighter XML files from the zip archive into the folder.
+4. Restart Notepad++ to make the changes visible. You should now see the new
    entries in the Language menu.
 
 Have fun!
@@ -29,6 +42,8 @@ v3.15
   - added new TP2 keywords introduced by WeiDU 247
   - added several missing TP2 keywords
   - added more symbols and keywords to BAF, D and TP2
+  - removed syntax folding from TP2
+  - fixed ambiguous coloring of several TP2 keywords
   - internal cleanups
 v3.14
   - added new TP2 keywords introduced by WeiDU 245
@@ -49,7 +64,7 @@ v3.11
 v3.10
   - added new TP2 keywords introduced in WeiDU 239
   - added a missing RACE.IDS identifier
-  - added fixed versions of misspelled EigthNearestEnemyOfType and 
+  - added fixed versions of misspelled EigthNearestEnemyOfType and
     EigthNearestMyGroupOfType object specifiers
   - fixed misspelled FIND_FREE_PRVZ_INDEX function name
   - moved CREATE from patch to action category
@@ -60,21 +75,21 @@ v3.8
   - removed variable delimiters (%)
   - added new TP2 keywords introduced in WeiDU 237
   - added a couple of missing keywords to TP2
-  - added new script actions, triggers and objects to WeiDU_BAF, WeiDU_D and 
+  - added new script actions, triggers and objects to WeiDU_BAF, WeiDU_D and
     WeiDU_TP2 introduced in IWD:EE
 v3.7
   - added tokens, triggers, actions and keywords introduced in BG:EE and BG2:EE
 v3.6
   - added new keywords introduced in WeiDU 232
 v3.5
-  - Added a couple of new triggers introduced by the BG2 Fixpack to WeiDU_BAF, 
+  - Added a couple of new triggers introduced by the BG2 Fixpack to WeiDU_BAF,
     WeiDU_D and WeiDU_TP2
-  - Added lots of new or missing identifiers from SPELL.IDS, KIT.IDS, GENDER.IDS 
+  - Added lots of new or missing identifiers from SPELL.IDS, KIT.IDS, GENDER.IDS
     and ANIMATE.IDS to WeiDU_BAF and WeiDU_D
 v3.4
-  - Fixed support for string numbers in WeiDU_TRA, it should now recognize 
+  - Fixed support for string numbers in WeiDU_TRA, it should now recognize
     negative numbers too
-  - Had to remove support for WeiDU variables from WeiDU_TRA again, as it were 
+  - Had to remove support for WeiDU variables from WeiDU_TRA again, as it were
     causing trouble for regular percent signs
 v3.3
   - Improved the highlighting scheme for strings in WeiDU_D and WeiDU_TRA
