@@ -42,6 +42,7 @@ v3.15
   - added new TP2 keywords introduced by WeiDU 247
   - added several missing TP2 keywords
   - added more symbols and keywords to BAF, D and TP2
+  - added more internal TP2 variables
   - removed syntax folding from TP2
   - fixed ambiguous coloring of several TP2 keywords
   - internal cleanups
