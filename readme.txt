@@ -2,7 +2,7 @@ WeiDU Syntax Highlighters for Notepad++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Author: Argent77
-Version: 3.14
+Version: 3.15
 
 Highlighters included:
 - WeiDU_TP2.xml: WeiDU script files (*.tp2,*.tph,*.tpa,*.tpp)
