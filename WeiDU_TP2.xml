@@ -18,9 +18,9 @@
             <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close"></Keywords>
-            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, open">BEGIN ALWAYS QUICK_MENU WITH IF_EXISTING ON_DISABLE ON_MISMATCH LAUNCH_ACTION_FUNCTION LAUNCH_FUNCTION_ACTION LAF LAUNCH_PATCH_FUNCTION LAUNCH_FUNCTION_PATCH LPF &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
-            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in code2, close">END &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
