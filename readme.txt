@@ -14,25 +14,18 @@ The syntax highlighter files work in Notepad++ 6.3 and higher.
 
 You can choose between two methods how to install the syntax highlighters:
 
-Method 1: in Notepad++
-1. Select Language->Define your language... in your Notepad++ menu.
-2. (optional) If you already have an older version installed, you should
-   remove it by selecting the appropriate language from the drop-down menu
-   and click the "Remove" button to avoid duplicate entries.
-3. Click the "Import..." button and select the respective XML file.
-4. Repeat step 2 and 3 for all syntax highlighters you need.
-5. Restart Notepad++ to make the changes visible. You should now see the new
-   entries in the Language menu.
-
-Method 2: in your file manager
-1. Open the file manager and enter the path "%AppData%\Notepad++\userDefineLangs"
-   (without the quotes) into the address bar. The path should resolve to
-   "C:\Users\<your username>\AppData\Roaming\Notepad++\userDefineLangs"
-   (on Windows Vista or later).
+Method 1: in your file manager (preferred)
+1. Open the file manager and enter the path "%AppData%\Notepad++\userDefineLangs" (without the quotes) into the address bar. The path should resolve to "C:\Users\<your username>\AppData\Roaming\Notepad++\userDefineLangs" (on Windows Vista or later). Alternatively, open Notepad++ and select menu Language > User Defined Language > Open User Defined Language folder...
 2. If the folder "userDefineLangs" doesn't exist yet, create it.
 3. Copy all desired highlighter XML files from the zip archive into the folder.
-4. Restart Notepad++ to make the changes visible. You should now see the new
-   entries in the Language menu.
+4. Restart Notepad++ to make the changes visible. You should now see the new entries in the Language menu.
+
+Method 2: in Notepad++ (deprecated)
+1. Select Language->Define your language... in your Notepad++ menu.
+2. (optional) If you already have an older version installed, you should remove it by selecting the appropriate language from the drop-down menu and click the "Remove" button to avoid duplicate entries.
+3. Click the "Import..." button and select the respective XML file.
+4. Repeat step 2 and 3 for all syntax highlighters you need.
+5. Restart Notepad++ to make the changes visible. You should now see the new entries in the Language menu.
 
 Have fun!
 
