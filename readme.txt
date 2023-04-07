@@ -10,12 +10,6 @@ Syntax highlighting support for:
 - D files (*.d)
 - TRA file (*.tra)
 
-Highlighters included:
-- WeiDU_TP2.xml: WeiDU script files (*.tp2,*.tph,*.tpa,*.tpp)
-- WeiDU_BAF.xml: Script text files (*.baf)
-- WeiDU_D.xml: WeiDU dialog files (*.d)
-- WeiDU_TRA.xml: WeiDU translation files (*.tra)
-
 Auto-Completion support for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
 - BAF files (*.baf)
