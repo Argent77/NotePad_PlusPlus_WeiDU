@@ -4,33 +4,66 @@ WeiDU Syntax Highlighters for Notepad++
 Author: Argent77
 Version: 3.15
 
+Syntax highlighting support for:
+- TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
+- BAF files (*.baf)
+- D files (*.d)
+- TRA file (*.tra)
+
 Highlighters included:
 - WeiDU_TP2.xml: WeiDU script files (*.tp2,*.tph,*.tpa,*.tpp)
 - WeiDU_BAF.xml: Script text files (*.baf)
 - WeiDU_D.xml: WeiDU dialog files (*.d)
 - WeiDU_TRA.xml: WeiDU translation files (*.tra)
-The syntax highlighter files work in Notepad++ 6.3 and higher.
+
+Auto-Completion support for:
+- TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
+- BAF files (*.baf)
+- D files (*.d)
+
+Syntax highlighting and auto-completion files require Notepad++ 6.3 or higher.
 
 
-You can choose between two methods how to install the syntax highlighters:
+Setting up Syntax Highlighting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Method 1: in your file manager (preferred)
-1. Open the file manager and enter the path "%AppData%\Notepad++\userDefineLangs" (without the quotes) into the address bar. The path should resolve to "C:\Users\<your username>\AppData\Roaming\Notepad++\userDefineLangs" (on Windows Vista or later). Alternatively, open Notepad++ and select menu Language > User Defined Language > Open User Defined Language folder...
+1. Open the file manager and enter the path "%AppData%\Notepad++\userDefineLangs" (without the quotes) into the address bar.
+   The path should resolve to "C:\Users\<your username>\AppData\Roaming\Notepad++\userDefineLangs" (on Windows Vista or later).
+   Alternatively, open Notepad++ and select menu Language > User Defined Language > Open User Defined Language folder...
 2. If the folder "userDefineLangs" doesn't exist yet, create it.
-3. Copy all desired highlighter XML files from the zip archive into the folder.
-4. Restart Notepad++ to make the changes visible. You should now see the new entries in the Language menu.
+3. Copy all desired highlighter XML files from the "userDefineLangs" subfolder of the zip archive into the folder.
+4. Restart Notepad++ to make the changes visible. You should now see new entries (WeiDU_TP2, WeiDU_BAF, ...) in the Language menu.
 
 Method 2: in Notepad++ (deprecated)
 1. Select Language->Define your language... in your Notepad++ menu.
-2. (optional) If you already have an older version installed, you should remove it by selecting the appropriate language from the drop-down menu and click the "Remove" button to avoid duplicate entries.
-3. Click the "Import..." button and select the respective XML file.
+2. (optional) If you already have an older version installed, you should remove it by selecting the appropriate language from the
+   drop-down menu and click the "Remove" button to avoid duplicate entries.
+3. Click the "Import..." button and select the respective XML file from the "userDefineLangs" subfolder of the zip archive.
 4. Repeat step 2 and 3 for all syntax highlighters you need.
 5. Restart Notepad++ to make the changes visible. You should now see the new entries in the Language menu.
+
+
+Setting up Auto-Completion
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Open the file manager and navigate to the directory where Notepad++ is installed.
+   By default Notepad++ is installed in "C:\Program Files\Notepad++" or "C:\Program Files (x86)\Notepad++".
+   Alternatively, use Windows Search to find the location of "notepad++.exe".
+2. Open the subfolder "autoCompletion" and copy all desired auto-completion XML files from the "autoCompletion" subfolder
+   of the zip archive into the folder. Elevated privileges may be needed for the copy operation.
+3. Start or restart Notepad++ and navigate to menu Setting > Preferences. Select "Auto-Completion" in the options list and
+   activate the checkbox "Enable auto-completion on each input". Choose "Function and word completion" and enable the
+   "Function parameters hint on input" checkbox. Close the Preferences dialog.
+
 
 Have fun!
 
 
 History:
+v4.0
+  - added auto-completion support for TP2, BAF and D files
+  - internal mod restructuring
 v3.15
   - added new TP2 keywords introduced by WeiDU 247
   - added several missing TP2 keywords
