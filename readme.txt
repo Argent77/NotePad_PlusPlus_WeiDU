@@ -63,6 +63,7 @@ Have fun!
 History:
 v4.0
   - added auto-completion support for TP2, BAF and D files
+  - improved syntax highlighting coloring and structure
   - internal mod restructuring
 v3.15
   - added new TP2 keywords introduced by WeiDU 247
