@@ -2,7 +2,7 @@ WeiDU Syntax Highlighters for Notepad++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Author: Argent77
-Version: 3.15
+Version: 4.0
 
 Syntax highlighting support for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
@@ -57,8 +57,8 @@ Have fun!
 History:
 v4.0
   - added auto-completion support for TP2, BAF and D files
-  - improved syntax highlighting coloring and structure
-  - internal mod restructuring
+  - improved coloring and structure of syntax highlighters
+  - removed "colorize string" tags in TRA highlighter to fix false positives
 v3.15
   - added new TP2 keywords introduced by WeiDU 247
   - added several missing TP2 keywords
