@@ -59,6 +59,8 @@ v4.0
   - added auto-completion support for TP2, BAF and D files
   - improved coloring and structure of syntax highlighters
   - removed "colorize string" tags in TRA highlighter to fix false positives
+  - added variable WEIDU_VER
+  - restored syntax folding in TP2
 v3.15
   - added new TP2 keywords introduced by WeiDU 247
   - added several missing TP2 keywords
