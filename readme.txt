@@ -9,6 +9,7 @@ Syntax highlighting support (light and dark themes) for:
 - BAF files (*.baf)
 - D files (*.d)
 - TRA file (*.tra)
+- WeiDU.log (WeiDU.log, WeiDU-BGEE.log)
 
 Auto-Completion support for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
@@ -65,8 +66,9 @@ Dark themes for syntax highlighting: WillScarlettOhara
 History:
 v5.0
   - added dark themes for TP2, BAF, D and TRA syntax highlighting (thanks WillScarlettOhara)
+  - added syntax highlighting for WeiDU.log and WeiDU-BGEE.log files
+  - fixed nesting flags for tilde delimiters in D files
   - fixed typos
-  - fixed nesting flags for tilde delimiters
 v4.0
   - added auto-completion support for TP2, BAF and D files
   - improved coloring and structure of syntax highlighters
