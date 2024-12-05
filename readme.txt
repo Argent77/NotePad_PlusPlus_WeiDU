@@ -2,7 +2,7 @@ WeiDU Syntax Highlighters for Notepad++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Author: Argent77
-Version: 4.0
+Version: 5.0
 
 Syntax highlighting support (light and dark themes) for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
@@ -11,7 +11,7 @@ Syntax highlighting support (light and dark themes) for:
 - TRA file (*.tra)
 - WeiDU.log (WeiDU.log, WeiDU-BGEE.log)
 
-Auto-Completion support for:
+Auto-Completion support (light and dark themes) for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
 - BAF files (*.baf)
 - D files (*.d)
@@ -62,10 +62,13 @@ Syntax highlighting and auto-completion: Argent77
 
 Dark themes for syntax highlighting: WillScarlettOhara
 
+Autocompletion definitions for dark themes: Bubb
+
 
 History:
 v5.0
   - added dark themes for TP2, BAF, D and TRA syntax highlighting (thanks WillScarlettOhara)
+  - added autocompletion definitions for dark themes (thanks Bubb)
   - added syntax highlighting for WeiDU.log and WeiDU-BGEE.log files
   - fixed nesting flags for tilde delimiters in D files
   - fixed typos
