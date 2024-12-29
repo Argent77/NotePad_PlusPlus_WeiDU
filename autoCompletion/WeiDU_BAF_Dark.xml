@@ -510,7 +510,8 @@
     <KeyWord name="BestAC" />
     <KeyWord name="BitCheck" func="yes">
       <Overload retVal="" descr="Returns true if at least one bit from the given variable is in common with the bits defined in the third parameter.">
-        <Param name="S:Name*,S:Area*" />
+        <Param name="S:Name*" />
+        <Param name="S:Area*" />
         <Param name="I:Bit*Bits" />
       </Overload>
     </KeyWord>
@@ -1126,7 +1127,7 @@
     <KeyWord name="CreateCreatureImpassable" func="yes">
       <Overload retVal="" descr="This action creates the specified creature on a normally impassable surface (e.g. on a wall, on water, on a roof).">
         <Param name="S:NewObject*" />
-        <Param name="P:Location*,I:Face*Dir" />
+        <Param name="P:Location*" />
         <Param name="I:Face*Dir" />
       </Overload>
     </KeyWord>
@@ -1227,7 +1228,7 @@
     <KeyWord name="CreateItemGlobal" func="yes">
       <Overload retVal="" descr="This action creates a quantity of items equal to a global variable on the active creature.">
         <Param name="S:Global*" />
-        <Param name="S:Area*,S:ResRef*" />
+        <Param name="S:Area*" />
         <Param name="S:ResRef*" />
       </Overload>
     </KeyWord>
@@ -2064,7 +2065,7 @@
       <Overload retVal="" descr="This action instructs the active creature to follow the target object, in the specified formation, taking up the&#x0a;specified position. The Formation parameter represents the formation type (e.g. two lines, arrowhead, single line).&#x0a;The position should be in the range [0,5].">
         <Param name="O:Object*" />
         <Param name="I:Formation*" />
-        <Param name=":Formation*,I:Position*" />
+        <Param name="I:Position*" />
       </Overload>
     </KeyWord>
     <KeyWord name="FollowPath" func="yes">
@@ -3475,15 +3476,15 @@
     <KeyWord name="NearLocation" func="yes">
       <Overload retVal="" descr="Returns true if the specified object is within the range of the specified point. Works similar to Range(),&#x0a;but with a point instead of an object.">
         <Param name="O:Object*" />
-        <Param name="I:PointX*,I:PointY*,I:Range*" />
-        <Param name="I:PointY*,I:Range*" />
+        <Param name="I:PointX*" />
+        <Param name="I:PointY*" />
         <Param name="I:Range*" />
       </Overload>
     </KeyWord>
     <KeyWord name="NearSavedLocation" func="yes">
       <Overload retVal="" descr="Returns true if the object is near its home location (in case the specified variable doesn't exist) or near a point&#x0a;marked by a variable. The default home location for creatures is equal to their default position in the ARE file.">
         <Param name="O:Object*" />
-        <Param name="S:Global*,I:Range*" />
+        <Param name="S:Global*" />
         <Param name="I:Range*" />
       </Overload>
     </KeyWord>
