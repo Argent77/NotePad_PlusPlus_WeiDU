@@ -161,6 +161,8 @@
     <KeyWord name="DEFINE_DIMORPHIC_FUNCTION" />
     <KeyWord name="DEFINE_PATCH_FUNCTION" />
     <KeyWord name="DEFINE_PATCH_MACRO" />
+    <KeyWord name="DEFINED_AS_FUNCTION" />
+    <KeyWord name="DEFINED_AS_INLINED" />
     <KeyWord name="DELETE" />
     <KeyWord name="DELETE_AREA_ITEM" />
     <KeyWord name="DELETE_BYTES" />
@@ -226,12 +228,14 @@
     <KeyWord name="GET_FILE_ARRAY" />
     <KeyWord name="GET_OFFSET_ARRAY" />
     <KeyWord name="GET_OFFSET_ARRAY2" />
+    <KeyWord name="GET_RESOURCE_ARRAY" />
     <KeyWord name="GET_STRREF" />
     <KeyWord name="GET_STRREF_F" />
     <KeyWord name="GET_STRREF_FS" />
     <KeyWord name="GET_STRREF_S" />
     <KeyWord name="GET_UNIQUE_FILE_NAME" />
     <KeyWord name="GLOB" />
+    <KeyWord name="GLOBAL" />
     <KeyWord name="GROUP" />
     <KeyWord name="HANDLE_AUDIO" />
     <KeyWord name="HANDLE_CHARSETS" />
@@ -311,6 +315,7 @@
     <KeyWord name="OUTER_SET" />
     <KeyWord name="OUTER_SNPRINT" />
     <KeyWord name="OUTER_SPRINT" />
+    <KeyWord name="OUTER_SPRINTF" />
     <KeyWord name="OUTER_TEXT_SPRINT" />
     <KeyWord name="OUTER_WHILE" />
     <KeyWord name="PATCH_ABORT" />
@@ -466,6 +471,7 @@
     <KeyWord name="USING" />
     <KeyWord name="VALID_SCRIPT_ACTIONS" />
     <KeyWord name="VALID_SCRIPT_TRIGGERS" />
+    <KeyWord name="VARIABLE_IS_IN_ARRAY" />
     <KeyWord name="VARIABLE_IS_SET" />
     <KeyWord name="VERBOSE" />
     <KeyWord name="VERSION" />
