@@ -219,6 +219,7 @@
     <KeyWord name="FORBID_COMPONENT" />
     <KeyWord name="FORBID_FILE" />
     <KeyWord name="FORCED_SUBCOMPONENT" />
+    <KeyWord name="FROM" />
     <KeyWord name="GAME_INCLUDES" />
     <KeyWord name="GAME_IS" />
     <KeyWord name="GET_DIRECTORY_ARRAY" />
