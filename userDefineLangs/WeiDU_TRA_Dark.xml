@@ -33,7 +33,7 @@
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
-            <Keywords name="Delimiters">00&quot; 01 02&quot; 03~ 04 05~ 06% 07 08% 09[ 10 11] 12TODO 12FIXME 12BUG 12TEST 13 14((EOL)) 14((EOL)) 14((EOL)) 14((EOL)) 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03~ 04 05~ 06% 07 08% 09[ 10 11] 12TODO 12FIXME 13 14((EOL)) 14((EOL)) 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
