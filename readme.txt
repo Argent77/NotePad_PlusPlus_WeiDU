@@ -2,7 +2,7 @@ WeiDU Syntax Highlighters for Notepad++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Author: Argent77
-Version: 5.0
+Version: 5.1
 
 Syntax highlighting support (light and dark themes) for:
 - TP2 files (*.tp2, *.tph, *.tpa, *.tpp)
@@ -66,6 +66,15 @@ Autocompletion definitions for dark themes: Bubb
 
 
 History:
+v5.1
+  - added new TP2 keywords introduced by WeiDU 251
+  - added several more missing keywords to TP2
+  - added special coloring of TODO and FIXME keywords in comments
+  - allow nested block comments
+  - percent signs are treated as alternate string delimiters
+  - fixed several BAF autocompletion definitions
+  - fixed coloring of some target specifiers in D files
+  - fixed coloring of negative TRA numbers
 v5.0
   - added dark themes for TP2, BAF, D and TRA syntax highlighting (thanks WillScarlettOhara)
   - added autocompletion definitions for dark themes (thanks Bubb)
